@@ -22,7 +22,7 @@ Want a quick way to convert currencies? Look no further! This simple web applica
 ## How to Run
 
 1. Download the repository.
-2. Open the <a href="https://www.exchangerate-api.com/" target="_blank">ExchangeRate-API</a> and create a free account.
+2. Open the <a href="https://www.exchangerate-api.com/" target="_blank">ExchangeRate-API</a> website and create a free account.
 3. Click on the "API Keys" tab on the sidebar and click on the "Add New API Key" button.
 4. Copy the key from the website and paste it into `key.js`.
 5. Open the `index.html` file in your browser.
