@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9ac8322a89.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="app-details">
+            <img src="app-icon.svg" class="app-icon">
+            <h1 class="app-title">Currency Converter</h1>
+        </div>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" value="100">
+        <div class="dropdowns">
+            <select id="from-currency-select"></select>
+            <select id="to-currency-select"></select>
+        </div>
+        <!-- <button id="convert-button"><i class="fa-solid fa-money-bill-transfer"></i> Convert</button> -->
+        <p id="result"></p>
+    </div>
+
+    <!-- Script -->
+    <script src="key.js"></script>
+    <script src="currency-codes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
